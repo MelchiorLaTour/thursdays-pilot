@@ -1,0 +1,2 @@
+# The search engine is cloned by bin/setup.sh, not vendored.
+.engine/

@@ -1,0 +1,22 @@
+METHODOLOGY NOTE — Stakeholder Mapping
+Version 3, revised 11 January 2026
+
+PURPOSE
+A repeatable method for mapping stakeholders on two axes — influence over the outcome, and
+alignment with the client's position — and for identifying the informal power that the
+organisation chart does not show.
+
+METHOD
+1. Long-list every named individual who can advance or block the outcome. Do not filter yet.
+2. Score influence 1-5 from observed decision history, not from job title.
+3. Score alignment minus-2 to plus-2 from their own words in interview, not from inference.
+4. Plot. The dangerous quadrant is high influence, negative alignment, low visibility.
+5. Interview at least two people about each high-influence individual. Self-report on
+   alignment is unreliable; triangulation is the method.
+
+FAILURE MODE
+The most common error is scoring influence from the org chart. In the Aldgate Bank merger
+the three highest-influence individuals were all two levels below the named sponsor.
+
+OUTPUT
+A map, a named owner per high-influence stakeholder, and a specific message per quadrant.

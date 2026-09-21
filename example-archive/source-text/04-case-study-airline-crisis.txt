@@ -1,0 +1,19 @@
+CASE STUDY — Airline Operational Crisis
+Client: Northwind Air (fictional)    Engagement: August 2025
+
+SITUATION
+A four-day operational failure grounded 340 flights. Media coverage moved from operational
+to governance within 36 hours, which is the transition that determines whether a crisis ends
+in an apology or a resignation.
+
+WHAT WE DID
+Stood up a single-channel escalation ladder with three named spokespeople and one approver.
+Rewrote the holding statement four times in the first eight hours as facts firmed. Refused
+two interview requests that would have put an unbriefed executive on camera.
+
+RESULT
+Coverage returned to operational framing by day three. No governance-level departures.
+
+WHAT WE WOULD DO DIFFERENTLY
+The escalation ladder was built during the crisis. It should have existed beforehand. Every
+retained client now gets one in the first 30 days as a standing deliverable.

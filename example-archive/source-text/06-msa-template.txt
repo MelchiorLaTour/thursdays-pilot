@@ -1,0 +1,21 @@
+MASTER SERVICES AGREEMENT — Standard Template
+Version 2026.1
+
+CLAUSE 7 — LIABILITY
+The Adviser's aggregate liability under this Agreement shall not exceed the total fees paid
+in the twelve months preceding the claim. This cap is a material term and the fee structure
+assumes it. Do not accept an uncapped liability clause, and do not accept a cap expressed as
+a multiple of fees without repricing the engagement.
+
+CLAUSE 9 — INTELLECTUAL PROPERTY
+Methodologies, frameworks and tools developed by the Adviser before or outside the engagement
+remain the Adviser's property. The client receives a perpetual licence to use deliverables
+internally. Client-specific work product transfers on final payment, not on delivery.
+
+CLAUSE 12 — CHANGE CONTROL
+Any request that alters the scope stated in the applicable Statement of Work requires a
+written change order signed by both parties before the work begins. Work performed without a
+signed change order is performed at the Adviser's risk and is not billable.
+
+CLAUSE 15 — PAYMENT
+Invoices are payable within 30 days. Interest accrues at 4 percent above base after 45 days.
