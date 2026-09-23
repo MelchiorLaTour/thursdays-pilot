@@ -11,6 +11,7 @@ how the work actually gets done with them, and what to run on day one.
 | If you want | Open |
 |---|---|
 | To run it, in four steps | [`WALKTHROUGH.md`](WALKTHROUGH.md) |
+| To connect it to Claude Desktop or Codex | [`SETUP.md`](SETUP.md) |
 | To point it at your own folder | `bash bin/setup.sh ~/your/folder` |
 | To see what it is searching | [`example-archive/`](example-archive/) |
 | To see how an AI setup maps to consultant needs | [Setup audit](https://claude.ai/artifact/99mL3f4wx3qVXkVdmELLse) (read-only, redacted) |

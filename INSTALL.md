@@ -125,6 +125,8 @@ an OpenAI Platform account with two API keys, billed separately from ChatGPT Plu
 
 If they use Codex, the command-line tool, it is one line and needs no keys at all:
 
-    codex mcp add databrain -- python3 ~/thursdays-pilot/bundles/databrain/server/main.py ~/Documents/thursdays-pilot
+    codex mcp add databrain-pilot -- \
+      ~/thursdays-pilot/bundles/databrain/server/run.sh \
+      ~/thursdays-pilot
 
-Full detail is in `SETUP.md`.
+Full detail, including the Claude Desktop and Codex MCP commands, is in [`SETUP.md`](SETUP.md).
