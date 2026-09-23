@@ -16,10 +16,15 @@ Click the green **Code** button, then **Download ZIP**.
 
 Double-click the downloaded ZIP. It becomes a folder called `thursdays-pilot-main`.
 
-Drag that folder to **Documents** and rename it `thursdays-pilot`.
+Drag that folder to your **home folder** (the one with your name on it, where Documents and
+Downloads live) and rename it `thursdays-pilot`.
 
-> **Do not put it in a cloud folder.** Not OneDrive, not Dropbox, not Google Drive, not
-> iCloud Drive. See the warning in Step 3, it matters more than it sounds.
+> **Put it in the home folder, not in Documents or Desktop.** macOS gates those, and Claude
+> cannot read a gated folder. It does not show an error when that happens: the extension
+> installs fine and every search just comes back empty. The home folder is not gated.
+>
+> **And not in a cloud folder either.** Not OneDrive, not Dropbox, not Google Drive, not
+> iCloud Drive. See the warning in Step 3.
 
 *(Anyone comfortable with a terminal can skip all that with
 `git clone https://github.com/MelchiorLaTour/thursdays-pilot.git`.)*
@@ -40,7 +45,7 @@ If `brew` itself is missing, install Homebrew from `https://brew.sh` first.
 
 Still in Terminal:
 
-    cd ~/Documents/thursdays-pilot
+    cd ~/thursdays-pilot
     bin/setup.sh
 
 That indexes the bundled example documents, so it proves the machine works before any real
@@ -120,6 +125,6 @@ an OpenAI Platform account with two API keys, billed separately from ChatGPT Plu
 
 If they use Codex, the command-line tool, it is one line and needs no keys at all:
 
-    codex mcp add databrain -- python3 ~/Documents/thursdays-pilot/bundles/databrain/server/main.py ~/Documents/thursdays-pilot
+    codex mcp add databrain -- python3 ~/thursdays-pilot/bundles/databrain/server/main.py ~/Documents/thursdays-pilot
 
 Full detail is in `SETUP.md`.

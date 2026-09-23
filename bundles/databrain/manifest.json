@@ -21,9 +21,9 @@
     "brain_folder": {
       "type": "directory",
       "title": "Your documents folder",
-      "description": "The folder you ran setup.sh in. Everything stays on this computer. The folder is read where it sits and nothing is copied out of it.",
+      "description": "The folder you ran setup.sh in. Keep it directly in your home folder, not inside Documents, Desktop or Downloads: macOS gates those three and Claude cannot read them without extra permission. Everything stays on this computer either way.",
       "required": true,
-      "default": "${HOME}/Documents/thursdays-pilot"
+      "default": "${HOME}/thursdays-pilot"
     }
   }
 }

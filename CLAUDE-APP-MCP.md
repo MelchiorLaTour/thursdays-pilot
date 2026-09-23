@@ -53,6 +53,25 @@ uploaded, and only the specific passage needed for an answer is ever read.
 Search returning paths only is deliberate. A broad search physically cannot pour your
 documents into a conversation, because the search tool has no way to return their contents.
 
+## macOS permissions, the one thing that will bite you
+
+macOS gates three folders: **Desktop, Documents and Downloads**. Claude Desktop cannot read
+them until you grant permission, and a blocked read does not look like an error. The extension
+installs, the tools appear, and every search comes back empty.
+
+This was measured, not assumed. A probe running inside Claude Desktop reported
+`INDEX: BLOCKED` and `ENGINE: BLOCKED` for a folder on the Desktop, while the same files read
+fine from a terminal.
+
+**So keep this folder directly in your home folder**, for example `~/thursdays-pilot`, not
+inside Documents or Desktop. The home folder itself is not gated, and search then works with no
+permission prompt at all. That is why the installer defaults there.
+
+If your documents themselves live in Documents, searching still works, because search only
+reads the index. Only opening a specific file needs access, and macOS will ask once. To grant
+it ahead of time: **System Settings > Privacy & Security > Full Disk Access**, turn on Claude,
+then quit and reopen Claude.
+
 ## If it installs but finds nothing
 
 Three causes, in the order they actually happen.
