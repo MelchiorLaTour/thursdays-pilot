@@ -1,0 +1,16 @@
+{
+  "manifest_version": "0.3",
+  "name": "cynthia",
+  "display_name": "Cynthia",
+  "version": "1.1.0",
+  "description": "Checks whether a project has a Cynthia context manifest. Reads manifest state only, never project content.",
+  "author": { "name": "Melchior" },
+  "server": {
+    "type": "binary",
+    "entry_point": "server/run.sh",
+    "mcp_config": {
+      "command": "${__dirname}/server/run.sh",
+      "args": []
+    }
+  }
+}
