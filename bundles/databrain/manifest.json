@@ -1,0 +1,29 @@
+{
+  "manifest_version": "0.3",
+  "name": "databrain",
+  "display_name": "Databrain",
+  "version": "1.2.0",
+  "description": "Search a folder of your own documents, locally. Nothing is uploaded. Search returns file paths; text comes back only when you ask for one note.",
+  "author": {
+    "name": "Melchior"
+  },
+  "server": {
+    "type": "binary",
+    "entry_point": "server/run.sh",
+    "mcp_config": {
+      "command": "${__dirname}/server/run.sh",
+      "args": [
+        "${user_config.brain_folder}"
+      ]
+    }
+  },
+  "user_config": {
+    "brain_folder": {
+      "type": "directory",
+      "title": "Your documents folder",
+      "description": "The folder you ran setup.sh in. Everything stays on this computer. The folder is read where it sits and nothing is copied out of it.",
+      "required": true,
+      "default": "${HOME}/Documents/thursdays-pilot"
+    }
+  }
+}
