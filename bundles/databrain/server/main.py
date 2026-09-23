@@ -117,6 +117,14 @@ def _missing_deps(env):
 def run(script, args):
     path = os.path.join(BIN, script)
     if not os.path.isfile(path):
+        # A macOS privacy gate makes a folder look empty rather than refusing loudly, so name
+        # that case explicitly instead of blaming the user's folder choice.
+        gated = ("/Desktop/", "/Documents/", "/Downloads/")
+        if any(g in BRAIN + "/" for g in gated):
+            return ("Databrain cannot read " + BRAIN + ". That folder is inside Desktop, Documents "
+                    "or Downloads, which macOS gates, and this app has not been granted access. "
+                    "Either move the folder to your home folder, or turn this app on under "
+                    "System Settings > Privacy & Security > Full Disk Access and restart it.")
         return f"Databrain engine not found at {path}. Point the server at the folder you ran setup.sh in."
     env = _env()
     missing = _missing_deps(env)
